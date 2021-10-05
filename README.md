@@ -34,8 +34,7 @@ Herokuへの公開はそのまま不特定多数への公開になるため、�
 
 ## 内容に関する相談の場所
 このリポジトリでの作業に関する相談は、以下の手段でお願いします。
-- GitHub Discussions
-- Gitter
+- (GitHub Discussions)[https://github.com/satsukizzz/n-playspace-http/discussions]
 - Draft PR(ドラフト プルリクエスト)
 - (N予備校Slack内チャンネル ["一緒にHTTPリポジトリ作ろう"](https://progedu.slack.com/archives/C02GPTC52JF) )
 
