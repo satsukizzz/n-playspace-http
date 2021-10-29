@@ -1,3 +1,8 @@
 .calc_row {
   display: flex;
 }
+
+.calc_button > button {
+  width: 30px;
+  padding: 5px;
+}
