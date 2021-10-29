@@ -1,0 +1,66 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    title test
+    link(href="/css/calculator.css" rel="stylesheet" type="text/css")
+    script(src="/js/calculator.js")
+  body
+    div#test test-div
+    #calc_container
+      .calc_display
+        input#result(type="text" disabled)
+      .calc_row
+        .calc_button
+          button#calc-a a
+        .calc_button
+          button#calc-b b
+        .calc_button
+          button#calc-c c
+        .calc_button
+          button#calc-clear C
+      .calc_row
+        .calc_button
+          button#calc-d d
+        .calc_button
+          button#calc-e e
+        .calc_button
+          button#calc-f f
+        .calc_button
+          button#calc-divide /
+      .calc_row
+        .calc_button
+          button#calc-seven 7
+        .calc_button
+          button#calc-eight 8
+        .calc_button
+          button#calc-nine 9
+        .calc_button
+          button#calc-multiply *
+      .calc_row
+        .calc_button
+          button#calc-four 4
+        .calc_button
+          button#calc-five 5
+        .calc_button
+          button#calc-six 6
+        .calc_button
+          button#calc-minus -
+      .calc_row
+        .calc_button
+          button#calc-one 1
+        .calc_button
+          button#calc-two 2
+        .calc_button
+          button#calc-three 3
+        .calc_button
+          button#calc-plus +
+      .calc_row
+        .calc_button
+          button#calc-zero 0
+        .calc_button
+          button#calc-double-zero 00
+        .calc_button
+          button#calc-period .
+        .calc_button
+          button#calc-equal =
