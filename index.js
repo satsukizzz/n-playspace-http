@@ -11,7 +11,7 @@ const server = http.createServer((req, res) => {
     try {
       const cssFile = fs.readFileSync('./resources/css/' + urlDirectories[2]);
       res.writeHead(200, {
-        'Content-Type': 'text/css charset=utf-8'
+        'Content-Type': 'text/css;charset=utf-8'
       });
       res.write(cssFile);
     } catch (e) {
@@ -26,7 +26,7 @@ const server = http.createServer((req, res) => {
     try {
       const jsFile = fs.readFileSync('./resources/js/' + urlDirectories[2]);
       res.writeHead(200, {
-        'Content-Type': 'text/javascript charset=utf-8'
+        'Content-Type': 'text/javascript;charset=utf-8'
       });
       res.write(jsFile);
     } catch (e) {
