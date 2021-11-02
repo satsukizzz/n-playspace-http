@@ -8,4 +8,5 @@ ENV LANG ja_JP.UTF-8
 ENV TZ Asia/Tokyo
 RUN yarn add pug@2.0.4
 
+COPY . /app
 WORKDIR /app
