@@ -2,4 +2,4 @@ build:
   docker:
     web: Dockerfile
 run:
-  web: yarn install && node index.js
+  web: cd / && yarn install && node index.js
