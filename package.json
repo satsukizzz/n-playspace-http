@@ -1,8 +1,0 @@
-{
-  "name": "n-playspace-http",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "git@github.com:satsukizzz/n-playspace-http.git",
-  "author": "satsukizzz <dn.asp01@gmail.com>",
-  "license": "MIT"
-}
